@@ -9,6 +9,7 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
 
     startButton.addEventListener('click', () => {
         recognition.start();
+        recognition.stop();
     });
 
     
@@ -28,6 +29,7 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
             console.log("unrecognized")
         }
     };
+    
 
     recognition.onerror = (event) => {
         console.error('Speech recognition error:', event.error);
