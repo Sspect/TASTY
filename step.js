@@ -14,14 +14,8 @@ if ("SpeechRecognition" in window || "webkitSpeechRecognition" in window) {
     recognition.onresult = (event) => {
       const transcript = event.results[event.results.length - 1][0].transcript;
 
-      if (transcript.includes("previous")) {
-        console.log("previous");
-        currentStep = Math.max(currentStep - 1, 1);
-        button(currentStep);
-      } else if (transcript.includes("next")) {
-        currentStep = Math.min(currentStep + 1, 5);
-        button(currentStep);
-      } else if (transcript.includes("step one")) {
+      
+      if (transcript.includes("step one")) {
         currentStep = 1;
         button(currentStep);
       } else if (transcript.includes("step 2")) {

@@ -9,7 +9,7 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
 
     startButton.addEventListener('click', () => {
         recognition.start();
-        recognition.stop();
+        
     });
 
     
