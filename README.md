@@ -1,6 +1,31 @@
-# TASTY
- Talk Assisted Smart Tool for Yummy Recipes
+# Avokado Toast Test
 
+Dette prosjektet er en enkel webside for gjennomføring av en brukertest knyttet til navigering av en avokado toast-oppskrift.
+
+## Innhold
+
+- Informasjon og regler for deltakere
+- Test 1: Talestyrt navigasjon
+- Test 2: Navigasjon med touchpad
+- Lenke til testside
+- Lenke til spørreskjema og GitHub-repository
+
+## Teknologi
+
+- HTML
+- CSS
+- Enkel bilde- og lenkehåndtering
+
+## Bruk
+
+1. Åpne `index.html` i nettleseren.
+2. Les informasjonen og reglene.
+3. Start testen via lenken nederst på siden.
+
+## Lenker
+
+- GitHub Repository: https://github.com/Sspect/TASTY
+- Spørreskjema: https://docs.google.com/forms/d/e/1FAIpQLSdI8odskODrA6lpfIq0nKnEzbuqTRRYruwYgI94NDJQ1mrTxA/viewform?usp=sf_link
  Avokado oppskrift:<br>
  https://meny.no/oppskrifter/sandwich/Avokado-toast/
  <br><br>
